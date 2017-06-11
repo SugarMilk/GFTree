@@ -8,11 +8,23 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol GFBranchProtocol <NSObject>
+@protocol GFClassProtocol <NSObject>
 
-+ (BOOL)branchProtocol_singleton;
-+ (NSString *)branchProtocol_name;
-+ (NSInteger)branchProtocol_level;
-+ (instancetype)branchProtocol_create;
++ (BOOL)classProtocol_singleton;
++ (NSString *)classProtocol_name;
++ (NSInteger)classProtocol_level;
++ (id)classProtocol_create;
+
+@end
+
+@protocol GFOneProtocol <NSObject>
+
+- (void)sayGoodMorning;
+
+@end
+
+@protocol GFTwoProtocol <NSObject>
+
+- (void)sayGoodNight;
 
 @end

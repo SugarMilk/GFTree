@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  OneViewController.h
 //  GFTree
 //
 //  Created by 黄健 on 2017/6/11.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TwoViewController : UIViewController
 
 @end
-
