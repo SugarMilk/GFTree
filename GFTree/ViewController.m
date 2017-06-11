@@ -26,6 +26,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSArray * array;
+    NSMutableArray * arr = [NSMutableArray array];
+    [arr addObjectsFromArray:array];
+    NSLog(@"%@,  %d", array, (int)array.count);
+    
+    
+    
     
 }
 

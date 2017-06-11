@@ -12,5 +12,6 @@
 @interface GFTree : NSObject
 
 + (void)registerBranch:(Class<GFBranchProtocol>)branch leaf:(Protocol *)leaf;
++ (instancetype)leafOfBranch:(Class<GFBranchProtocol>)branch;
 
 @end
